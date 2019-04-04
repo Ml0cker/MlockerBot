@@ -17,7 +17,6 @@ def send_help(message):
 def LolOrAue(message: Message):
     if message.text.lower() == 'лол':
         bot.reply_to(message, 'Го лол гей!')
-
     else:
         bot.reply_to(message, 'Ауе!')
 
